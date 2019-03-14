@@ -23,7 +23,7 @@ A new Flutter plugin for Wechat SDK.
   s.frameworks = ["SystemConfiguration", "CoreTelephony"]
   s.libraries = ["z", "sqlite3.0", "c++"]
   s.preserve_paths = 'Lib/*.a'
-  s.vendored_libraries = "**/*.a"
+  # s.vendored_libraries = "**/*.a"
 # s.ios.deployment_target = '8.0'
 end
 
