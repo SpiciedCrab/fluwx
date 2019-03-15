@@ -14,7 +14,7 @@ A new Flutter plugin for Wechat SDK.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/public/*.h'
-  s.static_framework = true
+  # s.static_framework = true
   s.dependency 'Flutter'
 #  s.dependency 'WechatOpenSDK', '~> 1.8.2'
 
@@ -22,8 +22,8 @@ A new Flutter plugin for Wechat SDK.
 #  s.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/Headers/Public/#{s.name}" }
   s.frameworks = ["SystemConfiguration", "CoreTelephony"]
   s.libraries = ["z", "sqlite3.0", "c++"]
-  s.preserve_paths = 'Lib/*.a'
-  s.vendored_libraries = "**/*.a"
+  # s.preserve_paths = 'Lib/*.a'
+  # s.vendored_libraries = "**/*.a"
 # s.ios.deployment_target = '8.0'
 end
 
